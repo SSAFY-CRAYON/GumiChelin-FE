@@ -1,9 +1,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.GuMiChelin" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/peaches</item>
+        <item name="colorPrimaryVariant">@color/peaches</item>
+
     </style>
+
 
     <style name="Theme.GuMiChelin" parent="Base.Theme.GuMiChelin" />
 </resources>
