@@ -1,4 +1,4 @@
-package com.ssafy.gumi_chelin
+package com.ssafy.gumichelin
 
 import org.junit.Test
 

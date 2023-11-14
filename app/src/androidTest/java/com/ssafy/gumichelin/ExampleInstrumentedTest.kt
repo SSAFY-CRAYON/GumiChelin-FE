@@ -1,4 +1,4 @@
-package com.ssafy.gumi_chelin
+package com.ssafy.gumichelin
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.ssafy.gumi_chelin", appContext.packageName)
+        assertEquals("com.ssafy.gumichelin", appContext.packageName)
     }
 }

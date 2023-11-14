@@ -1,12 +1,11 @@
-package com.ssafy.gumi_chelin.src.login
+package com.ssafy.gumichelin
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.ssafy.gumi_chelin.R
 
-class LoginActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_main)
     }
 }
