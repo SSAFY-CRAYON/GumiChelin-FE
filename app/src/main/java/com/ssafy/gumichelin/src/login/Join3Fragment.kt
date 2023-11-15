@@ -8,10 +8,10 @@ import android.view.View
 import android.view.ViewGroup
 import com.ssafy.gumichelin.R
 import com.ssafy.gumichelin.config.BaseFragment
-import com.ssafy.gumichelin.databinding.FragmentJoin1Binding
+import com.ssafy.gumichelin.databinding.FragmentJoin3Binding
 import com.ssafy.gumichelin.databinding.FragmentLoginBinding
 
-class Join1Fragment: BaseFragment<FragmentJoin1Binding>(FragmentJoin1Binding::bind, R.layout.fragment_join1) {
+class Join3Fragment: BaseFragment<FragmentJoin3Binding>(FragmentJoin3Binding::bind, R.layout.fragment_join3) {
 
     private lateinit var loginActivity: LoginActivity
 
@@ -31,8 +31,5 @@ class Join1Fragment: BaseFragment<FragmentJoin1Binding>(FragmentJoin1Binding::bi
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.goNextButton.setOnClickListener {
-            loginActivity.openFragment(3)
-        }
     }
 }
