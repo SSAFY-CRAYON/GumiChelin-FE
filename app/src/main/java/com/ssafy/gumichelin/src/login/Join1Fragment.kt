@@ -14,10 +14,10 @@ private const val ARG_PARAM2 = "param2"
 
 /**
  * A simple [Fragment] subclass.
- * Use the [JoinFragment.newInstance] factory method to
+ * Use the [Join1Fragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class JoinFragment : Fragment() {
+class Join1Fragment : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -35,7 +35,7 @@ class JoinFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_join, container, false)
+        return inflater.inflate(R.layout.fragment_join1, container, false)
     }
 
     companion object {
@@ -50,7 +50,7 @@ class JoinFragment : Fragment() {
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            JoinFragment().apply {
+            Join1Fragment().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
                     putString(ARG_PARAM2, param2)

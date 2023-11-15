@@ -23,28 +23,30 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="40dp"
             android:text="GuMi-Chelin"
-            android:textSize="32dp"
+            android:textSize="40dp"
             android:textColor="@color/peaches"
             android:fontFamily="@font/bold_italic" />
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="60dp"
+            android:paddingLeft="8dp"
             android:hint="학번 입력"
             android:textColorHint="@color/light_gray"
             android:background="@drawable/edittext_shadow"/>
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="60dp"
             android:layout_marginTop="4dp"
+            android:paddingLeft="8dp"
             android:hint="비밀번호"
             android:textColorHint="@color/light_gray"
             android:background="@drawable/edittext_shadow"/>
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="60dp"
             android:layout_marginTop="12dp"
             android:text="로그인"
             android:textColor="@color/white"

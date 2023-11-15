@@ -4,10 +4,12 @@
 
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/peaches</item>
+        <item name="colorPrimaryDark">@color/peaches</item>
         <item name="colorPrimaryVariant">@color/peaches</item>
         <item name="colorOnPrimary">@color/white</item>
 
     </style>
+
 
 
     <style name="Theme.GuMiChelin" parent="Base.Theme.GuMiChelin" />
